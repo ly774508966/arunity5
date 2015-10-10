@@ -8,14 +8,14 @@
 -   [Notes](#Notes)
 -   [Windows Phone 8.1 and Windows Store 8.1 Notes](#WinRT)
 
-###About this Archive
+###About this Archive    <a name='About this Archive' /a>
 This archive contains the ARToolKit for Unity project, plugins, utilities and examples, version 5.3.1.
 
 ARToolKit for Unity version 5.3.1 is released under the GNU Lesser General Public License version 3, with some additional permissions. Example code is generally released under a more permissive disclaimer; please read the file LICENSE.txt for more information.
 
 ARToolKit for Unity is designed to build on Windows, Macintosh OS X, iOS and Android platforms.
 
-###System Requirements:
+###System Requirements:    <a name='System Requirements' /a>
 In addition to any base requirements for Unity, the ARToolKit for Unity plugin(s) have the following requirements:
 
 -   ARToolKit for Unity 5.3.1 requires Unity Pro v4.5.5f1 or later.
@@ -23,13 +23,13 @@ In addition to any base requirements for Unity, the ARToolKit for Unity plugin(s
 -   If targeting iOS, Xcode tools v5.0.1 or later is required. iOS v5.1.1 and later is supported.
 -   If targeting Windows Phone 8.1 or Windows Store 8.1, Visual Studio 2013 SP2 running on Windows 8.1 is required.
 
-###Support
+###Support   <a name='Support' /a>
 Please check out [documentation][documentation] for more information on [getting started][starting] and how to use ARToolKit for Unity. Specifically have a look at our [Unity documentation][unity], and our platform-specific documentation for [iOS][ios] and [Android][android], if using those platforms. If you have a specific question that the documentation doesn't address, please post on our [forums][forums], and a member of the community with help you. If you find a bug, please note it on our [bug tracker], and / or, fix it yourself and submit a [pull request][pull]!
 
-###Notes
+###Notes <a name='Notes' /a>
 ARToolKit v5.2 is the first major release under an open source license in several years, and represents several years of commercial development of ARToolKit by ARToolworks during this time. It will appear to be a significant change to previous users of ARToolKit v2.x. See the [feature comparison][features] for more information. Also, see the CHANGELOG.txt for details of changes in this and earlier releases.
 
-###WinRT
+###WinRT  <a name='WinRT' /a>
 ARToolKit for Unity for Windows Phone 8.1 and Windows Store 8.1.
 
 ARToolKit for Unity depends on the native ARToolKit libraries, which are packaged in a module named ARWrapper.dll. ARWrapper.dll is linked as native Windows Phone 8.1 and Windows Store 8.1 DLLs, with all the ARToolKit libraries linked into it. ARToolKit for Unity's C# scripts communicate with this DLL by use of P/Invoke. This is the same method used on all other platforms supported by ARToolKit for Unity.
